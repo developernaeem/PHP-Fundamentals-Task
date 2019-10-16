@@ -1,0 +1,21 @@
+.php_coding{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #ddd;
+}
+.header_area, .footer_area{
+	background: #833ab4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	display: block;
+}
+.header_area h2, .footer_area h2{
+	margin: 0px;
+}
+.main_content{
+	min-height: 400px;
+	padding: 20px;
+}
